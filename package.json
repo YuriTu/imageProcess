@@ -1,5 +1,5 @@
 {
-  "name": "imageProcess",
+  "name": "imageprocess",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:YuriTu/imageProcess.git",
@@ -56,7 +56,8 @@
     "build": "webpack --config ./config/webpack.prod.js",
     "pub": "bash ./build/publish.sh",
     "devbuild": "webpack --config ./config/webpack.dev.prod.js",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "ci" : "yarn run commit"
   },
   "browserslist": {
     "production": [
